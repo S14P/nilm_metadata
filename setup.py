@@ -63,13 +63,13 @@ write_version_py()
 # End of Version Check
 
 setup(
-	name='nilm_metadata',
+	name='nilm_metadata_s14pe',
 	version=VERSION,
 	packages=find_packages(),
 	install_requires=['PyYAML', 'six', 'pandas'],
 	package_data={'': ['*.yaml']},
 	# include_package_data=True,
-	description='Concatenate NILM metadata',
+	description='Concatenate NILM metadata with updated dependencies',
 	author='Jack Kelly',
 	author_email='jack.kelly@imperial.ac.uk',
 	url='https://github.com/nilmtk/nilm_metadata',

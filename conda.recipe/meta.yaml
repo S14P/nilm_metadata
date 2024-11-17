@@ -1,5 +1,5 @@
 package:
-    name: nilm_metadata
+    name: nilm_metadata_s14pe
     version: "0.2.5.dev1"
 source:
     path: ..
